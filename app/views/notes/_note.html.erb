@@ -1,0 +1,6 @@
+<div>
+    <p><%= note.title %> <%= note.body %></p>
+    <p><%= link_to 'Show', note %></p>
+    <p><%= link_to 'Edit', edit_note_path(note) %></p>
+    <p><%= link_to 'Destroy', note, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+</div>
